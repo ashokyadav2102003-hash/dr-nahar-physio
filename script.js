@@ -3,6 +3,7 @@
    script.js — All Interactions
 =========================== */
 
+<<<<<<< HEAD
 // ===== HERO VIDEO TOGGLE =====
 const playVideoBtn  = document.getElementById('playVideoBtn');
 const closeVideoBtn = document.getElementById('closeVideoBtn');
@@ -29,6 +30,8 @@ if (closeVideoBtn && heroVideoView) {
   });
 }
 
+=======
+>>>>>>> 52e34bbf4b01364c9f1fc06da0170b5d7bdef0bb
 // ===== NAVBAR: Scroll Effect =====
 const navbar = document.getElementById('navbar');
 
@@ -83,7 +86,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // ===== SCROLL REVEAL ANIMATION =====
 const revealElements = document.querySelectorAll(
+<<<<<<< HEAD
   '.service-card, .why-card, .condition-pill, .highlight-item, .contact-card, .about-content, .about-visual, .section-header, .insta-card'
+=======
+  '.service-card, .why-card, .condition-pill, .highlight-item, .contact-card, .about-content, .about-visual, .section-header'
+>>>>>>> 52e34bbf4b01364c9f1fc06da0170b5d7bdef0bb
 );
 
 revealElements.forEach(el => el.classList.add('reveal'));
@@ -307,4 +314,8 @@ document.body.style.opacity = '0';
 document.body.style.transition = 'opacity 0.5s ease';
 window.addEventListener('load', () => {
   document.body.style.opacity = '1';
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 52e34bbf4b01364c9f1fc06da0170b5d7bdef0bb
