@@ -414,7 +414,6 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
   border: 3px solid rgba(13,115,119,0.4);
 }
 
-<<<<<<< HEAD
 /* Hero Media Toggle (Photo <-> Video) */
 .hero-media-photo {
   position: relative;
@@ -515,8 +514,6 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .close-video-btn:hover { background: var(--teal); transform: rotate(90deg); }
 
-=======
->>>>>>> 52e34bbf4b01364c9f1fc06da0170b5d7bdef0bb
 .hero-card-badge {
   position: absolute;
   bottom: -18px;
@@ -889,7 +886,6 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 }
 
 /* ===========================
-<<<<<<< HEAD
    INSTAGRAM SECTION
 =========================== */
 .instagram {
@@ -969,8 +965,6 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 }
 
 /* ===========================
-=======
->>>>>>> 52e34bbf4b01364c9f1fc06da0170b5d7bdef0bb
    CONTACT SECTION
 =========================== */
 .contact {
@@ -1291,11 +1285,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
   section { padding: 72px 0; }
 
   .hero-card-badge { display: none; }
-<<<<<<< HEAD
   .play-btn-circle { width: 56px; height: 56px; font-size: 1.2rem; }
   .play-btn-label { font-size: 0.7rem; }
-=======
->>>>>>> 52e34bbf4b01364c9f1fc06da0170b5d7bdef0bb
 }
 
 @media (max-width: 480px) {
@@ -1303,7 +1294,6 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
   .hero-stats { flex-direction: column; gap: 8px; }
   .stat-divider { width: 40px; height: 1px; }
 }
-<<<<<<< HEAD
 
 /* ===========================
    HERO QUALIFICATIONS STRIP
@@ -1552,5 +1542,3 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
   .social-wa-note { flex-direction: column; gap: 12px; }
   .contact-social-row { gap: 8px; }
 }
-=======
->>>>>>> 52e34bbf4b01364c9f1fc06da0170b5d7bdef0bb
